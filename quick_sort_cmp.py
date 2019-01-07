@@ -18,11 +18,11 @@ def choose_pivot(list, l, r):
     return i
 
 
-def partition(list, p, l, r):
+def partition(list, p, l, r, c):
     list[p], list[l] = list[l], list[p]
     i = l + 1
     for j in range(l + 1, r):
-        #c[0] += 1
+        c[0] += 1
 
         if list[j] < list[l]:
             list[i], list[j] = list[j], list[i]
@@ -31,7 +31,7 @@ def partition(list, p, l, r):
     #return the new position of pivot
     return i - 1
 
-def quick_sort(list, l, r):
+def quick_sort(list, l, r, c):
     #print(l, r)
     if r - l <= 1:
         return
@@ -39,15 +39,14 @@ def quick_sort(list, l, r):
         #p is the position of the pivot
         p = choose_pivot(list, l, r)
         #update p
-        p = partition(list, p, l, r)
-        #print(c)
-        quick_sort(list, l, p)
-        quick_sort(list, p + 1, r)
+        p = partition(list, p, l, r, c)
+        print(c)
+        quick_sort(list, l, p, c)
+        quick_sort(list, p + 1, r, c)
 
 if __name__ == "__main__":
     data = loadtxt("QuickSort.txt")
     list = data.tolist()
 
-    list =[3,1,2,3,1,4,15,7,1,432,1]
     c = [0]
-    quick_sort(list, 0, len(list))
+    quick_sort(list, 0, len(list), c)

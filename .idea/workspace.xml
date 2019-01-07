@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fa50554-53cb-4e1e-8218-c33199f73c6a" name="Default Changelist" comment="" />
+    <list default="true" id="3fa50554-53cb-4e1e-8218-c33199f73c6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/graph_cnct_BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/min_cut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quick_sort_cmp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/quick_sort.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,35 +23,39 @@
     <session id="1328805789">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="102" />
-          <entry key="py" value="2688" />
-          <entry key="quick_sort" value="17" />
+          <entry key="Python Console" value="124" />
+          <entry key="graph_cnct_BFS" value="61" />
+          <entry key="min_cut" value="98" />
+          <entry key="py" value="5992" />
+          <entry key="quick_sort" value="75" />
+          <entry key="rand_select" value="159" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2807" />
+          <entry key="Python" value="6509" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
-          <entry key="txt" value="1" />
+          <entry key="py" value="13" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="5" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
     </session>
@@ -68,17 +78,67 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inv_count.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
+            <state relative-caret-position="736">
               <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quick_sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="32">
+              <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quick_sort_cmp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graph_cnct_BFS.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-55">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <marker date="1546864182179" expanded="true" signature="25:30" ph="..." />
+                <marker date="1546864182179" expanded="true" signature="25:152" ph="..." />
+                <marker date="1546864182179" expanded="true" signature="704:999" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rand_select.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/min_cut.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,6 +152,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -99,7 +162,12 @@
         <option value="$PROJECT_DIR$/Strassen_matrix_mut.py" />
         <option value="$PROJECT_DIR$/inv_count.py" />
         <option value="$PROJECT_DIR$/closest_pairs.py" />
+        <option value="$PROJECT_DIR$/quick_sort_cmp.py" />
         <option value="$PROJECT_DIR$/quick_sort.py" />
+        <option value="$PROJECT_DIR$/rond_select.py" />
+        <option value="$PROJECT_DIR$/min_cut.py" />
+        <option value="$PROJECT_DIR$/graph_cnct_BFS.py" />
+        <option value="$PROJECT_DIR$/rand_select.py" />
       </list>
     </option>
   </component>
@@ -109,10 +177,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-71" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-74" />
     <option name="width" value="714" />
-    <option name="height" value="810" />
+    <option name="height" value="812" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -156,29 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.quick_sort">
-    <configuration name="Strassen_matrix_mut" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algorithms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Strassen_matrix_mut.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.rand_select">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,6 +242,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="graph_cnct_BFS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph_cnct_BFS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,7 +291,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="merge_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="min_cut" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,9 +304,9 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/merge_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/min_cut.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -249,6 +317,9 @@
       <module name="Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -264,18 +335,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="rand_select" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rand_select.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.merge_sort" />
       <item itemvalue="Python.inv_count" />
-      <item itemvalue="Python.Strassen_matrix_mut" />
       <item itemvalue="Python.quick_sort" />
+      <item itemvalue="Python.rand_select" />
+      <item itemvalue="Python.min_cut" />
+      <item itemvalue="Python.graph_cnct_BFS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rand_select" />
+        <item itemvalue="Python.graph_cnct_BFS" />
+        <item itemvalue="Python.min_cut" />
         <item itemvalue="Python.quick_sort" />
         <item itemvalue="Python.inv_count" />
-        <item itemvalue="Python.Strassen_matrix_mut" />
-        <item itemvalue="Python.merge_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -293,9 +385,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1563" height="845" extended-state="7" />
+    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2564784" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26312292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -310,14 +402,14 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32913166" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32959327" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" x="0" y="0" width="340" height="645" id="Documentation" order="6" side_tool="true" visible="true" weight="0.32956812" />
+      <window_info anchor="right" x="0" y="0" width="340" height="645" id="Documentation" order="6" side_tool="true" weight="0.32956812" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +436,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rond_select.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/646977502/numpy/random/mtrand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="2018" column="4" selection-start-line="2018" selection-start-column="4" selection-end-line="2018" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numpy/lib/npyio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="772" column="4" selection-start-line="772" selection-start-column="4" selection-end-line="772" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kargerMinCut.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/merge_sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -357,15 +471,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inv_count.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
+        <state relative-caret-position="736">
           <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quick_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="32">
+          <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/min_cut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rand_select.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quick_sort_cmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph_cnct_BFS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1546864182179" expanded="true" signature="25:30" ph="..." />
+            <marker date="1546864182179" expanded="true" signature="25:152" ph="..." />
+            <marker date="1546864182179" expanded="true" signature="704:999" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
