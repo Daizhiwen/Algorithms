@@ -16,7 +16,7 @@ def BFS_undirected(G, s):
                 w = edge[0]
             #print(v, w)
 
-            if w > 0 and w not in nodes_explored:
+            if w > 0 and w not in nodes_explored and w not in Q:
                 nodes_explored[w] = nodes_explored[v] + 1
                 Q.append(w)
     return nodes_explored
@@ -33,7 +33,8 @@ def conected_class(G, N):
 
 
 if __name__ == "__main__":
-    G = [[1,2], [2, 3], [1,3]]
+    #G = [[1,2], [2, 3], [1,3]]
+    G = [[1, 2], [2, 3], [3, 4], [6, 4], [3, 6], [5, 2], [5, 1], [5, 6]]
 
     nodes = BFS_undirected(G, 4)
     print(nodes)
